@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="contacto.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./imágenes/Favicon Alianza.png" type="image/x-icon">
+  <title>página de contacto</title>
 </head>
+
 <body>
-  <img src="./imagenes/Alianza logo.png" alt="logo" width="100" height="100">
-  <!-- Init BannerMain -->
-  <div class="banner_main">
-    <header>
-      <a href="#">
-        <h2 class="banner_logo">Alianza<span>Abogados y Contadores</span></h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="./nosotros.html">Nosotros</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-          <li><a href="./agenda.html">Agenda una consulta</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="banner_title">
-      <h1>Abogados y contadores en tu empresa</h1>
-      </div>
-  </div>
-  <!-- End BannerMain -->
-  <a href="https://api.whatsapp.com/send?phone=+573188480191&text=Hola%20quiero%20saber%20más%20de%20sus%20servicios" class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-    <img src="./imagenes/chatea con nosotros.png" alt="logo" width="100" height="100">
+  <div>
+    <img src="./imágenes/Alianza logo.png" alt="Alianza Consultores" width="200" height="200">
+  </div>  
+  <form action = https://formspree.io/f/xvonkrkl method="post"
+    class="my-form">
+    <div class="container">
+      <h1>CONTÁCTANOS</h1>
+      <p>Si tienes alguna duda o comentario, no dudes en escribirnos.</p>
+      <ul>
+        <div class="grid grid-2">
+          <input type="text" placeholder="Nombre" required>
+          <input type="text" placeholder="Apellido" required>
+        </div>
+        </li>
+        <li>
+          <div class="grid grid-2">
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Teléfono">
+          </div>
+        </li>
+        <li>
+          <textarea placeholder="Mensaje"></textarea>
+        </li>
+        <li>
+          <input type="checkbox" id="terms">
+          <label for="terms">He leído y acepto <a
+              href="https://empresas.alianzaconsultores.co/terminos_condiciones">Los términos y
+              condiciones.</a></label>
+        </li>
+        <li>
+          <div class="grid grid-3">
+            <div class="required-msg">CAMPOS REQUERIDOS</div>
+            <button class="btn-grid" type="submit" enabled>
+              <span class="back">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg"
+                  alt="">                  
+              </span>
+              <span class="front">ENVIAR</span>
+           </button>           
+          </div>
+        </li>
+      </ul>
+    </div>
+  </form>
 </body>
+
+<footer>
+  <div class="container">
+    <div class="grid grid-3">
+      <div class="grid-item">
+        <h3>Alianza Consultores</h3>
+        <p>Alianza es un estudio legal y contable por suscripción para Mipymes y emprendimientos.
+        </p>
+      </div>
+      <div class="grid-item">
+        <h3>Redes Sociales</h3>
+        <ul>
+          <li><a
+              href="https://www.facebook.com/profile.php?id=100086431995219&mibextid=LQQJ4d">Facebook</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </html>
