@@ -1,0 +1,18 @@
+@import '/css/nav.css';
+@import '/css/normalize.css';
+@import '/css/about.css';
+@import '/css/contact.css';
+
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+}

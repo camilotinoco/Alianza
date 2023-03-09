@@ -1,0 +1,107 @@
+/* General styles Nav Banner */
+.banner_main {
+    background-image: url(/img/banner-temp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+    height: 53vh;
+    position: relative;
+}
+
+.container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.navbarP {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f232788;
+    padding-block: 10px;
+}
+
+.navbarP a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.list {
+    padding: 15px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.btn-consulta {
+    color: black;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.nbar-right {
+    align-items: center;
+    display: flex;
+}
+
+.banner_title {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: left;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-size: 2.5em;
+    text-shadow: 3px 0px 7px #000000;
+}
+
+#toggler,
+.navbarP label {
+    display: none;
+}
+
+@media screen and (max-width: 830px) {
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .navbarP label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+    .icono-grande {
+        
+        position: relative;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 3em;
+    }
+}
