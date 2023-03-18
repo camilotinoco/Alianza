@@ -2,6 +2,9 @@
 @import '/css/normalize.css';
 @import '/css/about.css';
 @import '/css/contact.css';
+@import '/css/InSesion.css';
+@import '/css/registro.css';
+
 
 /* Import font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -13,6 +16,29 @@
     box-sizing: border-box;
 }
 body {
+    background-color: #fff;
     font-family: "Poppins", sans-serif;
-    font-size: 1.5em;
+}
+
+.banner_main {
+    background-image: url(/img/banner-index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+    height: 53vh;
+    position: relative;
+}
+
+.banner_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-size: 2.5em;
+    text-shadow: 3px 0px 7px #000000;
 }

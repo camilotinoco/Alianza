@@ -1,0 +1,159 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gratuito",
+      "price": 0,
+      "unit": 1,
+      "image": "https://example.com/",
+      "especificaciones": [
+        "Asesoría contable (Solo la primera)",
+        "Alertas de actualizaciones y fechas de vencimiento tributarios",
+        "Asesoría legal ilimitada (Solo la primera)",
+        "Revisión y corrección de documentos legales, incluye contratos y títulos valores (La primera revisión)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Basico",
+      "price": 1680,
+      "unit": 1,
+      "image": "https://example.com/images",
+      "especificaciones": [
+        "Contabilidad (Hasta 20 transacciones)",
+        "Asesoria Contable (Ilimitada)",
+        "Facturacion Electronica",
+        "Documento soporte electrónico",
+        "Nómina electrónica",
+        "Declaración de renta",
+        "Declaración de IVA",
+        "Declaración de retención en la fuente",
+        "Elaboración y presentación de impuestos anuales y mensuales",
+        "Entrega de estados financieros mensual",
+        "Alertas de actualizaciones y fechas de vencimiento tributarios",
+        "Servicios contables personalizados (A convenir costo)",
+        "Apreciación de situación legal, detección y mitigación de riesgos judiciales que pongan en peligro la empresa",
+        "Asesoría legal ilimitada",
+        "Elaboración o actualización del manual de trabajo de acuerdo a las últimas directrices del gobierno nacional",
+        "Empleados: elaboración y revisión de contratos, proceso disciplinario, y prevención de demandas laborales (Hasta 3)",
+        "Creación del protocolo prevención del riesgo de demandas por culpa patronal",
+        "Creación del manual de trámites disciplinarios",
+        "Revisión y corrección de documentos legales, incluye contratos y títulos valores (Hasta 3)",
+        "Contestación profesional derechos de petición",
+        "Defensa prejudicial y judicial ante juzgados y tribunales, incluye la superintendencia de industria y comercio (Tarifa colegio nacional de Abogados con descuento del 20%)",
+        "Servicios legales personalizados (A convenir costo)",
+        "Academia legal y contable en video para autogestión de problemas frecuentes"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Negocios",
+      "price": 1992,
+      "unit": 1,
+      "image": "https://example.com/images/",
+      "especificaciones": [
+        "Contabilidad (Hasta 40 transacciones)",
+        "Asesoría contable (Solo la primera)",
+        "Facturacion Electronica",
+        "Documento soporte electrónico",
+        "Nómina electrónica",
+        "Declaración de renta",
+        "Declaración de IVA",
+        "Declaración de retención en la fuente",
+        "Elaboración y presentación de impuestos anuales y mensuales",
+        "Entrega de estados financieros mensual",
+        "Informe de análisis de información financiera",
+        "Oportunidad de mejoramiento de acuerdo a la actividad",
+        "Alertas de actualizaciones y fechas de vencimiento tributarios",
+        "Servicios contables personalizados (A convenir costo)",
+        "Apreciación de situación legal, detección y mitigación de riesgos judiciales que pongan en peligro la empresa",
+        "Asesoría legal ilimitada",
+        "Elaboración o actualización del manual de trabajo de acuerdo a las últimas directrices del gobierno nacional",
+        "Empleados: elaboración y revisión de contratos, proceso disciplinario, y prevención de demandas laborales (Hasta 5)",
+        "Creación del protocolo prevención del riesgo de demandas por culpa patronal",
+        "Creación del manual de trámites disciplinarios",
+        "Revisión y corrección de documentos legales, incluye contratos y títulos valores (Hasta 5)",
+        "Contestación profesional derechos de petición",
+        "Defensa prejudicial y judicial ante juzgados y tribunales, incluye la superintendencia de industria y comercio (Tarifa colegio nacional de Abogados con descuento del 20%)",
+        "Servicios legales personalizados (A convenir costo)",
+        "Academia legal y contable en video para autogestión de problemas frecuentes"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pymes",
+      "price": 2690,
+      "unit": 1,
+      "image": "https://example.com/images/",
+      "especificaciones": [
+        "Contabilidad (41 - 60 Transacciones)",
+        "Asesoría contable (Solo la primera)",
+        "Facturacion Electronica",
+        "Documento soporte electrónico",
+        "Nómina electrónica",
+        "Declaración de renta",
+        "Declaración de IVA",
+        "Declaración de retención en la fuente",
+        "Elaboración y presentación de impuestos anuales y mensuales",
+        "Entrega de estados financieros mensual",
+        "Informe de análisis de información financiera",
+        "Oportunidad de mejoramiento de acuerdo a la actividad",
+        "Alertas de actualizaciones y fechas de vencimiento tributarios",
+        "Servicios contables personalizados (A convenir costo)",
+        "Apreciación de situación legal, detección y mitigación de riesgos judiciales que pongan en peligro la empresa",
+        "Asesoría legal ilimitada",
+        "Elaboración o actualización del manual de trabajo de acuerdo a las últimas directrices del gobierno nacional",
+        "Empleados: elaboración y revisión de contratos, proceso disciplinario, y prevención de demandas laborales (Hasta 20)",
+        "Creación del protocolo prevención del riesgo de demandas por culpa patronal",
+        "Creación del manual de trámites disciplinarios",
+        "Revisión y corrección de documentos legales, incluye contratos y títulos valores (Hasta 20)",
+        "Contestación profesional derechos de petición",
+        "Defensa prejudicial y judicial ante juzgados y tribunales, incluye la superintendencia de industria y comercio (Tarifa colegio nacional de Abogados con descuento del 20%)",
+        "Servicios legales personalizados (A convenir costo)",
+        "Academia legal y contable en video para autogestión de problemas frecuentes"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "P_05",
+      "price": 3120,
+      "unit": 1,
+      "image": "https://example.com/images/"
+    },
+    {
+      "id": 6,
+      "name": "P_06",
+      "price": 0,
+      "unit": 1,
+      "image": "https://example.com/images/"
+    },
+    {
+      "id": 7,
+      "name": "P-07",
+      "price": 0,
+      "unit": 1,
+      "image": "https://example.com/images/"
+    },
+    {
+      "id": 8,
+      "name": "P-08",
+      "price": 0,
+      "unit": 1,
+      "image": "https://example.com/images/"
+    },
+    {
+      "id": 9,
+      "name": "P-09",
+      "price": 0,
+      "unit": 1,
+      "image": "https://example.com/images/"
+    },
+    {
+      "id": 10,
+      "name": "P-10",
+      "price": 0,
+      "unit": 1,
+      "image": "https://example.com/images/"
+    }
+  ]
+}
