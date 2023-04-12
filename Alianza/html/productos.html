@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="/css/styleCar.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      
+      <div class="menu logo-nav">
+        <a href="/html/index.html" class="logo">ALIANZA</a>
+        <label class="menu-icon"><span class="fas fa-bars icomin"></span></label>
+        <nav class="navigation">
+          <ul>
+            <li><a href="/html/productos.html">Productos</a></li>
+            <li class="search-icon">
+
+              <label class="icon">
+                <span class="fas fa-search"></span>
+              </label>
+            </li>
+            <li class="car" >
+              <svg class="bi bi-cart3" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+                <div id="carrito" class="dropdown-menu">
+                  <table id="lista-carrito" class="table">
+                      <thead>
+                          <tr>
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody></tbody>
+                  </table>
+
+                  <a href="#" id="vaciar-carrito" class="button-vaciar">Vaciar Carrito</a>
+                  <a href="#" id="procesar-pedido" class="button-pedido">Procesar Compra</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<main>
+
+<div class="container-card">
+  
+  
+<div class="card">
+  <figure>
+    <img src="https://d1yei2z3i6k35z.cloudfront.net/systeme-common/5dcd39c387b31_1573140768890507542.png">
+  </figure>
+  <div class="contenido-card">
+    <h3><b>100% DIGITALES </b> </h3>
+    <p><b>Recuerda, desde la pandemia implementamos protocolos digitales e inteligencia artificial y nos convertimos en una solución legal y contable 100% virtual.</b>b</p>
+  </div>
+</div>
+<div class="card">
+  <figure>
+    <img src="https://d1yei2z3i6k35z.cloudfront.net/systeme-common/5dcd39b47e06c_1573140768890507543.png">
+  </figure>
+  <div class="contenido-card">
+    <h3><b>EXPERIENCIA</b></h3>
+    <p><b>Contamos con un sólido equipo dedicado exclusivamente a desarrollar temas legales y contables para empresas.</b></p>
+  </div>
+</div>
+<div class="card">
+  <figure>
+    <img src="https://d1yei2z3i6k35z.cloudfront.net/systeme-common/5dcd397e7a24a_1573140768890507541.png">
+  </figure>
+  <div class="contenido-card">
+    <h3><b>INFORMACIÓN</b></h3>
+    <p><b>Contamos con un sólido equipo dedicado exclusivamente a desarrollar temas legales y contables para empresas.</b></p>
+  </div>
+</div>
+<div class="card">
+  <figure>
+    <img src="https://d1yei2z3i6k35z.cloudfront.net/systeme-common/5dcd36bb8c688_157314076889050754.png">
+  </figure>
+  <div class="contenido-card">
+    <h3><b>TRANQUILIDAD</b></h3>
+    <p><b>Creamos tu página web utilizando las últimas tecnologías disponibles. Una Web adaptativa a tu móvil o Tablet y con un gestor de contenido fácil.</b></p>
+  </div>
+</div>
+</div>
+
+
+<div class="title-cards">
+  <h2>Servicios que Ofrecemos</h2>
+</div>
+
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <img src="" alt="" class="modal-img" id="modal-img">
+          </div>
+          <div class="modal-boton" id="modal-boton">X</div>
+        </div>
+
+        <div class="container-productos" id="lista-productos">
+
+          <div class="card">
+            <img src="/img/decla-renta.jpg" class="card-img">
+            <h5><n> Solicitud de prision domiciliaria </n></h5>
+            <p>Con el servcio de nuestros mejores </p>
+            <p>Prod <small class="precio">1</small></p>
+            <a href="#" class="button agregar-carrito" data-id="1">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/serv-legal.avif.jpg" class="card-img">
+            <h5>Servicios legales personalizados</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>Prod<small class="precio">2</small></p>
+            <a href="#" class="button agregar-carrito" data-id="2">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/asesoria-legal.jpg" class="card-img">
+            <h5>Asesoría legal 	</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">3</small></p>
+            <a href="#" class="button agregar-carrito" data-id="3">agregar</a>
+          </div>
+
+          <div class="card">
+            <img src="/img/soli-libertad.jpg" class="card-img">
+            <h5>Solicitud de libertad </h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">4</small></p>
+            <a href="#" class="button agregar-carrito" data-id="4">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/ser-perzo.jpg" class="card-img">
+            <h5>Servicios legales personalizados</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">5</small></p>
+            <a href="#" class="button agregar-carrito" data-id="5">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/contes-pro.jpg" class="card-img">
+            <h5>Contestación profesional derechos de petición</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">6</small></p>
+            <a href="#" class="button agregar-carrito" data-id="6">agregar</a>
+          </div>
+
+          <div class="card">
+            <img src="/img/soli-libertad.jpg" class="card-img">
+            <h5>Solicitud de libertad</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">7</small></p>
+            <a href="#" class="button agregar-carrito" data-id="7">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/soli-pro.jpg" class="card-img">
+            <h5>Solicitud de archivo del proceso</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">8</small></p>
+            <a href="#" class="button agregar-carrito" data-id="8">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/preclu.jpg" class="card-img">
+            <h5>Solicitud de preclusión
+            </h5>
+            <p>SKU: HPDMT</p>
+            <p>PROD<small class="precio">9</small></p>
+            <a href="#" class="button agregar-carrito" data-id="9">agregar</a>
+          </div>
+          <div class="card">
+            <img src="/img/soli-libert.jpg" class="card-img">
+            <h5>Servicios contables personalizados</h5>
+            <p>garantizamos hasta 4 sesiones personalizadas</p>
+            <p>PROD<small class="precio">10</small></p>
+            <a href="#" class="button agregar-carrito" data-id="10">agregar</a>
+          </div>
+        </div>
+</main>
+
+<footer class="footer-section">
+  <div class="copyright-area">
+      <div class="container-footer">
+          <div class="row-footer">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2023, todos los derechos reservados <a href="/html/index.html">Alianza</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="/html/nosotros.html">Nosotros</a></li>
+                          <li><a href="/html/contacto.html">Contacto</a></li>
+                          <li><a href="/html/productos.html">Clientes</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer> 
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script  src="/js/scripts.js"></script>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/pedido.js"></script>
+    <script src="/js/compra.js"></script>
+</body>
+</html>

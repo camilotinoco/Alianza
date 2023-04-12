@@ -1,0 +1,129 @@
+{
+  "Productos": [
+    {
+      "Contabilidad": [
+        {
+          "id": 1,
+          "nombre": "Gratuito",
+          "precio": 0,
+          "cantidad": 1,
+          "imagen": "https://example.com/",
+          "especificaciones": [
+            "Asesoría contable (Solo la primera)"
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Basico-Contabilidad",
+          "precio": 1680,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens",
+          "especificaciones": [
+            "Contabilidad (Hasta 20 transacciones)",
+            "Asesoria Contable (Ilimitada)",
+            "Facturacion Electronica"
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Contabilidad-Negocios",
+          "precio": 1992,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Documento soporte electrónico",
+            "Declaración de IVA",
+            "Declaración de renta"
+          ]
+        },
+        {
+          "id": 4,
+          "nombre": "Contabilidad-Pymes",
+          "precio": 2690,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Nómina electrónica",
+            "Declaración de retención en la fuente",
+            "Elaboración y presentación de impuestos anuales y mensuales"
+          ]
+        },
+        {
+          "id": 5,
+          "nombre": "Contabilidad-Empresas",
+          "precio": 3120,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Entrega de estados financieros mensual",
+            "Informe de análisis de información financiera",
+            "Oportunidad de mejoramiento de acuerdo a la actividad"
+          ]
+        }
+      ]
+    },
+    {
+      "Judicial": [
+        {
+          "id": 6,
+          "nombre": "Gratuito",
+          "precio": 0,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Asesoría legal ilimitada (Solo la primera)"
+          ]
+        },
+        {
+          "id": 7,
+          "nombre": "Basico-Judicial",
+          "precio": 0,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Asesoría legal ilimitada",
+            "Elaboración o actualización del manual de trabajo de acuerdo a las últimas directrices del gobierno nacional",
+            "Empleados: elaboración y revisión de contratos, proceso disciplinario, y prevención de demandas laborales (Hasta 20)"
+          ]
+        },
+        {
+          "id": 8,
+          "nombre": "Judicial-Negocios",
+          "precio": 0,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Creación del protocolo prevención del riesgo de demandas por culpa patronal",
+            "Creación del manual de trámites disciplinarios",
+            "Revisión y corrección de documentos legales, incluye contratos y títulos valores (Hasta 20)"
+          ]
+        },
+        {
+          "id": 9,
+          "nombre": "Judicial-Pymes",
+          "precio": 0,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Contestación profesional derechos de petición",
+            "Defensa prejudicial y judicial ante juzgados y tribunales, incluye la superintendencia de industria y comercio (Tarifa colegio nacional de Abogados con descuento del 20%)",
+            "Servicios legales personalizados (A convenir costo)"
+          ]
+        },
+        {
+          "id": 10,
+          "nombre": "Judicial-Empresas",
+          "precio": 0,
+          "cantidad": 1,
+          "imagen": "https://example.com/imagens/",
+          "especificaciones": [
+            "Alertas de actualizaciones y fechas de vencimiento tributarios",
+            "Servicios contables personalizados (A convenir costo)",
+            "Apreciación de situación legal, detección y mitigación de riesgos judiciales que pongan en peligro la empresa",
+            "Academia legal y contable en video para autogestión de problemas frecuentes"
+          ]
+        }
+      ]
+    }
+  ]
+}

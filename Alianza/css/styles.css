@@ -1,0 +1,79 @@
+@import '/css/nav.css';
+@import '/css/normalize.css';
+@import '/css/nosotross.css';
+@import '/css/contacto.css';
+@import '/css/InSesion.css';
+@import '/css/registro.css';
+@import '/css/footer.css';
+
+
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner_main {
+    background-image: url(/img/banner-index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+    height: 53vh;
+    position: relative;
+}
+
+.banner_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-size: 2.5em;
+    text-shadow: 3px 0px 7px #000000;
+}
+
+.secCenter {
+    display: grid;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.h2Index {
+    margin: 5rem 0;
+    font-size: 5rem;
+
+}
+
+.h3Index {
+    font-size: 2.5rem;
+    margin: 15px;
+}
+
+.pIndex {
+    font-size: 15px;
+    color: #696464;
+    margin: 5px 5px 30px;
+
+}
+
+@media (max-width: 500px) {
+    .secCenter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

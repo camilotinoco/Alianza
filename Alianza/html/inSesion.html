@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alianza | Iniciar Sesión</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/InSesion.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="navbarInS containerInS">
+        <a href="/html/index.html"><img class="logoInS" src="/img/Alianza logo.png" alt="logo"></a>
+    </nav>
+    <main class="wrapper">
+        <h2>Iniciar Sesión</h2>
+        <form role="form" onsubmit="signIn(event);" autocomplete="off" method="post">
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Correo" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="pwd1" id="pwd1" placeholder="Contraseña" required>
+            </div>
+            <div class="recover">
+                <a href="#">Olvidaste tu contraseña?</a>
+            </div>
+            <div class="form-group">
+                <button type="submit">Iniciar Sesión</button>
+            </div>
+        </form>
+        <p class="member">No tienes una cuenta? <a href="/html/registro.html">Registrate aquí!</a></p>
+    </main>
+
+    <script type="text/javascript" src="/js/registroLogSign.js"></script>
+
+    <!-- etiqueta AJAX del footer -->
+    <div id="foot"></div>
+</body>
+</html>
